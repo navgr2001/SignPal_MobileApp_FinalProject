@@ -1,4 +1,37 @@
-I'm thrilled to share my final year research project: a mobile application for real-time Sri Lankan Sign Language (SLSL) recognition using a CNN-LSTM deep learning model. This project aims to support the deaf and hard-of-hearing community in Sri Lanka by enabling gesture recognition through a smartphone. The system captures 30-frame gesture sequences using MediaPipe to extract hand, face, and pose landmarks, which are then classified by an LSTM-based model trained on custom SLSL data. The app runs entirely offline, making it suitable for rural and low-connectivity environments, and was built using Python and Kivy for seamless integration with the AI backend. Technically, it contributes a lightweight, efficient architecture for mobile-based action recognition, while socially, it enhances accessibility through localized language support. I'm excited about how this work can evolve into two-way translation and avatar-based sign rendering in the future.
+🎓 Final Year Project Completed! 🤟📱
+
+I'm excited to share my final year research project(SignPal):
+“Real-Time Sri Lankan Sign Language Recognition Using a Mobile-Based CNN-LSTM Model” 🇱🇰🧠📲
+
+🔍 About the Project:
+This project focuses on bridging the communication gap for the deaf and hard-of-hearing community in Sri Lanka by developing a mobile application that recognizes dynamic SLSL gestures in real time using MediaPipe pose estimation and a CNN-LSTM deep learning architecture.
+
+✅ Key Features:
+
+📷 Real-time gesture capture and recognition (30-frame sequence window)
+
+🧠 Deep learning with LSTM for temporal motion recognition
+
+🧩 MediaPipe-powered landmark extraction (pose, hands, face)
+
+📱 Full offline mobile app built with Kivy (Python) — no internet required
+
+📊 Evaluated with accuracy, confusion matrix & ROC curves
+
+🌍 Designed for inclusivity, accessibility, and local language support
+
+💡 Technical Contributions:
+
+Keypoint-based gesture classification without raw video
+
+On-device AI model inference optimized for mobile
+
+Opensource-ready pipeline for future expansion into avatars or reverse translation (text ➡ sign)
+
+A huge thank you to everyone who supported this journey! 🙏
+Looking forward to continuing work in AI for accessibility and social impact.
+
+hashtag#AI hashtag#DeepLearning hashtag#SignLanguageRecognition hashtag#SriLanka hashtag#MachineLearning hashtag#FinalYearProject hashtag#AccessibilityTech hashtag#Kivy hashtag#MediaPipe hashtag#LSTM hashtag#Python hashtag#MobileAI hashtag#GestureRecognition
 ![image alt](https://github.com/navgr2001/SignPal_MobileApp_FinalProject/blob/master/signpalbanner.png)
 ![image alt](https://github.com/navgr2001/SignPal_MobileApp_FinalProject/blob/master/signpal%20home.png)
 ![image alt](https://github.com/navgr2001/SignPal_MobileApp_FinalProject/blob/master/signpal%20learn%20sign.png)
